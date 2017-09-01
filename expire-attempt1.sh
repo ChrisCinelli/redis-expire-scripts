@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This is too slow... do not even look at it.
+
 if [ $# -ne 3 ]
 then
   echo "Expire keys from Redis matching a pattern using SCAN & EXPIRE"
